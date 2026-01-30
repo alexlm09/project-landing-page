@@ -26,7 +26,7 @@ a {
   gap: 60px;
 
   background-color: #1F2937;
-  padding: 20px 200px;
+  padding: 20px 200px 100px 200px;
 }
 
 .upper-header {
@@ -111,6 +111,7 @@ a {
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
+  gap: 80px;
 }
 
 .upper-content,
@@ -161,6 +162,35 @@ a {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+}
+
+.middle-content {
+  background-color: #E5E7EB;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-set {
+  width: 840px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  min-width: 500px;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .footer {
