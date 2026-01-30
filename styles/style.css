@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  gap: 80px;
 }
 
 li {
@@ -82,13 +83,14 @@ a {
   border: none;
   border-radius: 4px;
 
-  padding: 6px 20px;
+  padding: 6px 24px;
   cursor: pointer;
   flex-shrink: 0;
 }
 
 .lower-content .sign-up-button {
   border: 2px solid #F9FAF8;
+  
 }
 
 .image-placeholder {
@@ -190,6 +192,40 @@ a {
 .quote-author {
   color: #1F2937;
   font-size: 28px;
+  font-weight: 700;
+}
+
+.lower-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.lower-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 8px;
+  width: 800px;
+  padding: 40px 80px ;
+}
+
+.modal-texts {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  min-width: 200px;
+}
+
+.modal-title,
+.modal-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.modal-title {
   font-weight: 700;
 }
 
